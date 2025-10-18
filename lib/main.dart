@@ -32,13 +32,22 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body:
       Center(
+       
       child:Container(
        width: 200,
        height: 100,
        color: Colors.blueGrey,
-       child:Center(child:  Text('This is the center of box',style: TextStyle(color:Colors.white),),)
+       child:Center(child:  Text('This is the center of box',style: TextStyle(color:Colors.white,
+       fontSize: 15,
+       fontWeight: FontWeight.bold,
+       backgroundColor: Colors.pinkAccent
+       ),
+       
+       
+       ),)
        
       ),
+      
       )
     );
   }
